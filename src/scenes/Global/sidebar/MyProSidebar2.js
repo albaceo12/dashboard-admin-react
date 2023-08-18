@@ -4,6 +4,8 @@ import { Menu, Sidebar, MenuItem, useProSidebar } from "react-pro-sidebar";
 import { useSidebarContext } from "./sidebarContext";
 import { Link, useLocation } from "react-router-dom";
 import { colormodeContext, tokens } from "../../../theme";
+import avatar from "../../../img_asset/avatar.png";
+import sidebarimg from "../../../img_asset/sidebarimg.jpg";
 import {
   useTheme,
   Box,
@@ -243,7 +245,7 @@ const MyProSidebar2 = () => {
           style={{ flex: 1, position: "relative", overflow: "auto" }}
         >
           <img
-            src="../../assets/sidebarimg.jpg"
+            src={sidebarimg}
             style={{
               position: "absolute",
               left: 0,
@@ -313,7 +315,7 @@ const MyProSidebar2 = () => {
                     alt="profile user"
                     width="100px"
                     height="100px"
-                    src={"../../assets/avatar.png"}
+                    src={avatar}
                     style={{ cursor: "pointer", borderRadius: "50%" }}
                   />
                 </Box>
