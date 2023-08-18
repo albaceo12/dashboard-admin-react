@@ -11,7 +11,6 @@ import {
   IconButton,
   useMediaQuery,
 } from "@mui/material";
-import { icondata } from "../../../data/icondata";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
